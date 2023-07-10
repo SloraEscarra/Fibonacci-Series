@@ -1,0 +1,18 @@
+#Python Program for Fibonacci Series.
+lim= int(input("Enter the limit:"))
+i1=0
+i2=1
+i=2
+print("Fibonacci Series:")
+if lim>0:
+    print(i1)
+if lim>1:
+    print(i2)
+    
+if lim>2:
+    while i<lim:
+        i3 = i1 + i2
+        print(i3)
+        i1 = i2
+        i2 = i3
+        i+= 1
